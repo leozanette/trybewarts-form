@@ -11,15 +11,18 @@ buttonEntrar.addEventListener('click', function () {
     }
 })
 
+
+
+
+
 let checkbox = document.getElementById('agreement');
 let buttonEnviar = document.getElementById('submit-btn');
 buttonEnviar.disabled = true
 
+
 function habilitaEnviar() {
     
     checkbox.addEventListener('change', checked)
-
-
 }
 habilitaEnviar()
 
@@ -29,7 +32,5 @@ function checked() {
     } else {
         buttonEnviar.disabled = true
     }
-
-    console.log(checkbox.checked)
-    console.log(checkbox.value)
 }
+
