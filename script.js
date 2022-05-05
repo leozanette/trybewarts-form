@@ -10,3 +10,26 @@ buttonEntrar.addEventListener('click', function () {
         alert("Email ou senha inválidos.")
     }
 })
+
+let checkbox = document.getElementById('agreement');
+let buttonEnviar = document.getElementById('submit-btn');
+buttonEnviar.disabled = true
+
+function habilitaEnviar() {
+    
+    checkbox.addEventListener('change', checked)
+
+
+}
+habilitaEnviar()
+
+function checked() {
+    if(checkbox.checked == true) {
+        buttonEnviar.disabled = false
+    } else {
+        buttonEnviar.disabled = true
+    }
+
+    console.log(checkbox.checked)
+    console.log(checkbox.value)
+}
