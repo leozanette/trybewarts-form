@@ -1,4 +1,4 @@
-let buttonEntrar = document.getElementById('buttonEntrar');
+const buttonEntrar = document.getElementById('buttonEntrar');
 
 buttonEntrar.addEventListener('click', function () {
     let email = document.getElementById('email');
