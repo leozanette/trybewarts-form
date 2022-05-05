@@ -4,12 +4,12 @@ buttonEntrar.addEventListener('click', function () {
     let email = document.getElementById('email');
     let senha = document.getElementById('senha');
 
-    if (email.value == 'tryber@teste.com' && senha.value == '123456') {
-        alert("Olá, Tryber!")
+    if (email.value === 'tryber@teste.com' && senha.value === '123456') {
+        alert("Olá, Tryber!");
     } else {
-        alert("Email ou senha inválidos.")
+        alert("Email ou senha inválidos.");
     }
-})
+});
 
 
 
@@ -17,20 +17,20 @@ buttonEntrar.addEventListener('click', function () {
 
 let checkbox = document.getElementById('agreement');
 let buttonEnviar = document.getElementById('submit-btn');
-buttonEnviar.disabled = true
+buttonEnviar.disabled = true;
 
 
 function habilitaEnviar() {
     
-    checkbox.addEventListener('change', checked)
+    checkbox.addEventListener('change', checked);
 }
-habilitaEnviar()
+habilitaEnviar();
 
 function checked() {
-    if(checkbox.checked == true) {
-        buttonEnviar.disabled = false
+    if(checkbox.checked === true) {
+        buttonEnviar.disabled = false;
     } else {
-        buttonEnviar.disabled = true
+        buttonEnviar.disabled = true;
     }
 }
 
