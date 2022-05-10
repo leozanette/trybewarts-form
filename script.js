@@ -23,7 +23,19 @@ function checked() {
     buttonEnviar.disabled = true;
   }
 }
+
 function habilitaEnviar() {
   checkbox.addEventListener('change', checked);
 }
 habilitaEnviar();
+
+function contaText() {
+  const textarea = document.getElementById('textarea');
+  textarea.addEventListener('keyup', () => {
+    const contagem = textarea.value.length;
+    const span = document.getElementById('counter');
+    span.innerHTML = 500 - contagem;
+  });
+}
+
+contaText();
