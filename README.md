@@ -1,13 +1,17 @@
-# :construction: README customizado em construção ! :construction:
-<!-- Olá, Tryber!
-Esse é apenas um arquivo inicial para o README do seu projeto no qual você pode customizar e reutilizar todas as vezes que for executar o trybe-publisher.
+# Trybewarts Form
 
-Para deixá-lo com a sua cara, basta alterar o seguinte arquivo da sua máquina: ~/.student-repo-publisher/custom/_NEW_README.md
+Este repositório contém uma página web que simula um formulário de admissão na escola de bruxaria Trybewarts. O formulário possui validações de dados em tempo real e impede o envio de informações incorretas.
 
-É essencial que você preencha esse documento por conta própria, ok?
-Não deixe de usar nossas dicas de escrita de README de projetos, e deixe sua criatividade brilhar!
-:warning: IMPORTANTE: você precisa deixar nítido:
-- quais arquivos/pastas foram desenvolvidos por você; 
-- quais arquivos/pastas foram desenvolvidos por outra pessoa estudante;
-- quais arquivos/pastas foram desenvolvidos pela Trybe.
--->
+![Demo do formulário Trybewarts](./demo.gif)
+
+## Tecnologias Utilizadas
+
+- HTML
+- CSS
+- JavaScript
+
+## Como Utilizar
+
+1. Clone o repositório em sua máquina:
+```bash
+git clone https://github.com/leozanette/trybewarts-form.git
