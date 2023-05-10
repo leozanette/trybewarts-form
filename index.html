@@ -11,9 +11,12 @@
 
 <body>
   <header class="header">
-    <img class="trybewarts-header-logo" src="images/trybewarts-header-logo.svg" alt="trybe-logo">
+    <div>
 
-    <h1 id="trybewarts-header-title">Trybewarts</h1>
+      <img class="trybewarts-header-logo" src="images/trybewarts-header-logo.svg" alt="trybe-logo">
+      
+      <h1 id="trybewarts-header-title">Trybewarts</h1>
+    </div>
 
 
     <form action="" class="trybewarts-login">
@@ -55,10 +58,18 @@
 
       <div id="family">
         <label id="label-family">Qual sua família?</label>
-
-        <input type="radio" name="family" value="Frontend">
-        <input type="radio" name="family" value="Backend">
-        <input type="radio" name="family" value="FullStack">
+        <div>
+          <label>
+            Frontend
+            <input type="radio" name="family" value="Frontend">
+          </label>
+          <label>
+            Backend<input type="radio" name="family" value="Backend">
+          </label>
+          <label>
+            FullStack<input type="radio" name="family" value="FullStack">
+          </label>
+        </div>
 
       </div>
 
